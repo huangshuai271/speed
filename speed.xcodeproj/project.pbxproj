@@ -13,7 +13,7 @@
 		E19BC73C1D34C66A007AB39B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19BC73A1D34C66A007AB39B /* Main.storyboard */; };
 		E19BC73E1D34C66A007AB39B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19BC73D1D34C66A007AB39B /* Assets.xcassets */; };
 		E19BC7411D34C66A007AB39B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19BC73F1D34C66A007AB39B /* LaunchScreen.storyboard */; };
-		E19BC74A1D34C695007AB39B /* stringhelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E19BC7491D34C695007AB39B /* stringhelper.m */; };
+		E19BC7501D35DA0A007AB39B /* stringhelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E19BC74F1D35DA0A007AB39B /* stringhelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		E19BC73D1D34C66A007AB39B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E19BC7401D34C66A007AB39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E19BC7421D34C66A007AB39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E19BC7481D34C695007AB39B /* stringhelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringhelper.h; sourceTree = "<group>"; };
-		E19BC7491D34C695007AB39B /* stringhelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stringhelper.m; sourceTree = "<group>"; };
+		E19BC74E1D35DA0A007AB39B /* stringhelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stringhelper.h; path = Classes/stringhelper.h; sourceTree = "<group>"; };
+		E19BC74F1D35DA0A007AB39B /* stringhelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = stringhelper.m; path = Classes/stringhelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +65,8 @@
 				E19BC7351D34C66A007AB39B /* AppDelegate.m */,
 				E19BC7371D34C66A007AB39B /* ViewController.h */,
 				E19BC7381D34C66A007AB39B /* ViewController.m */,
-				E19BC7481D34C695007AB39B /* stringhelper.h */,
-				E19BC7491D34C695007AB39B /* stringhelper.m */,
+				E19BC74E1D35DA0A007AB39B /* stringhelper.h */,
+				E19BC74F1D35DA0A007AB39B /* stringhelper.m */,
 				E19BC73A1D34C66A007AB39B /* Main.storyboard */,
 				E19BC73D1D34C66A007AB39B /* Assets.xcassets */,
 				E19BC73F1D34C66A007AB39B /* LaunchScreen.storyboard */,
@@ -154,7 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E19BC74A1D34C695007AB39B /* stringhelper.m in Sources */,
+				E19BC7501D35DA0A007AB39B /* stringhelper.m in Sources */,
 				E19BC7391D34C66A007AB39B /* ViewController.m in Sources */,
 				E19BC7361D34C66A007AB39B /* AppDelegate.m in Sources */,
 				E19BC7331D34C66A007AB39B /* main.m in Sources */,
@@ -308,6 +308,7 @@
 				E19BC7471D34C66A007AB39B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
